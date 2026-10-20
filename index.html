@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Salon Hyld – Frisør i København K | Book tid online</title>
+<meta name="description" content="Salon Hyld er en (fiktiv) frisørsalon i København K. Dameklip, herreklip, farve og balayage. Se priser, åbningstider og book din tid online på 30 sekunder.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#f7f2ea">
+<meta property="og:title" content="Salon Hyld – Frisør i København K">
+<meta property="og:description" content="Demo-side: sådan kan en moderne frisørside se ud.">
+<meta property="og:image" content="img/hero-1100.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero-800.webp" imagesrcset="img/hero-800.webp 800w, img/hero-1100.webp 1100w" imagesizes="(min-width:900px) 50vw, 100vw">
+<!--
+  DEMO-SIDE for en FIKTIV frisørsalon. "Salon Hyld", adresse, telefon, personer, priser og anmeldelser er opdigtede.
+  Lavet af ED. – edwebworks.com
+  Fotos: Unsplash (Unsplash License) – se img/CREDITS.txt:
+  Barney Goodman (_Fy7Kq0w6OI), Ionela Mat (koWiggH8fmE), Lu (TcWwRcf92GY), Jenna Oslin (MmDO1-ezCE4),
+  Yovanka Loria Salon (RpFQdgJ9gQw, e900d39_6No), Gabriela (151p8tr5jkQ), Adam Winger (FkAZqQJTbXM).
+-->
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"HairSalon",
+ "name":"Salon Hyld (demo)",
+ "description":"Fiktiv frisørsalon brugt som demo af ED. – edwebworks.com",
+ "image":"img/hero-1100.webp",
+ "telephone":"+45 00 00 00 00",
+ "priceRange":"$$",
+ "address":{"@type":"PostalAddress","streetAddress":"Eksempelgade 1","postalCode":"1000","addressLocality":"København K","addressCountry":"DK"},
+ "openingHoursSpecification":[
+  {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Friday"],"opens":"10:00","closes":"18:00"},
+  {"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"10:00","closes":"20:00"},
+  {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"15:00"}
+ ]
+}
+</script>
+<style>
+:root{--bg:#f7f2ea;--paper:#fffdf9;--ink:#23281f;--mut:#6b6f63;--sage:#6f7d52;--blush:#ead9c6;--line:#e3d9cb;--serif:"Bodoni Moda",Didot,Georgia,serif;--sans:"Manrope",system-ui,-apple-system,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 16.5px/1.65 var(--sans);-webkit-font-smoothing:antialiased;padding-bottom:78px}
+a{color:inherit}img{display:block;max-width:100%}
+.demo{background:var(--ink);color:#e9e4d8;text-align:center;font-size:12px;padding:6px 12px;letter-spacing:.02em}
+header{position:sticky;top:0;z-index:20;background:rgba(247,242,234,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:12px 20px}
+.logo{font:500 26px/1 var(--serif);text-decoration:none;letter-spacing:-.01em}
+.logo i{color:var(--sage)}
+.nav ul{display:none;list-style:none;gap:28px;font-size:14px;font-weight:500}
+.nav ul a{text-decoration:none;color:var(--mut)}.nav ul a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--ink);color:var(--bg);text-decoration:none;font:600 15px/1 var(--sans);padding:17px 26px;border-radius:999px;border:0;cursor:pointer;transition:transform .2s,background .2s}
+.btn:hover{background:var(--sage);transform:translateY(-1px)}
+.btn.light{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+.btn.sm{padding:11px 18px;font-size:14px}
+.hero{max-width:1180px;margin:auto;display:grid;gap:28px;padding:28px 20px 60px}
+.hero .txt{padding-top:10px}
+.eyebrow{font:600 12px/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--sage);margin-bottom:16px}
+h1{font:500 clamp(44px,10vw,84px)/1.02 var(--serif);letter-spacing:-.02em}
+h1 i{color:var(--sage)}
+.hero p{color:var(--mut);font-size:18px;max-width:42ch;margin:18px 0 26px}
+.cta{display:flex;gap:10px;flex-wrap:wrap}
+.rating{display:flex;align-items:center;gap:10px;margin-top:22px;font-size:14px;color:var(--mut)}
+.stars{color:#c9942e;letter-spacing:2px;font-size:16px}
+.hero figure{position:relative;border-radius:200px 200px 18px 18px;overflow:hidden;aspect-ratio:4/5;background:var(--blush)}
+.hero figure img{width:100%;height:100%;object-fit:cover}
+.badge{position:absolute;left:14px;bottom:14px;background:var(--paper);border-radius:14px;padding:12px 16px;font-size:13px;box-shadow:0 10px 30px rgba(35,40,31,.15)}
+.badge b{display:block;font-size:15px}
+.badge .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#4f9a5b;margin-right:6px}
+section{padding:80px 20px}
+.wrap{max-width:1180px;margin:auto}
+h2{font:500 clamp(34px,6vw,54px)/1.08 var(--serif);letter-spacing:-.015em;margin-bottom:14px}
+.lead{color:var(--mut);max-width:58ch}
+.note{font-size:12.5px;color:var(--mut);background:var(--blush);display:inline-block;padding:4px 10px;border-radius:999px;margin-top:10px}
+/* priser */
+.prices{background:var(--paper)}
+.plist{display:grid;gap:34px;margin-top:36px}
+.plist h3{font:500 24px/1.2 var(--serif);border-bottom:1px solid var(--ink);padding-bottom:10px;margin-bottom:6px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px dashed var(--line)}
+.row span small{display:block;color:var(--mut);font-size:13px}
+.row b{white-space:nowrap;font-weight:600}
+/* booking */
+.booking{background:var(--ink);color:var(--bg)}
+.booking .lead{color:#c9c6ba}
+.bk{background:var(--paper);color:var(--ink);border-radius:22px;padding:22px;margin-top:34px;display:grid;grid-template-columns:minmax(0,1fr);gap:22px}
+.bk>*{min-width:0}
+.bk h3{font:600 13px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--sage);margin-bottom:12px}
+.opts{display:grid;gap:8px}
+.opt{display:flex;justify-content:space-between;align-items:center;border:1.5px solid var(--line);border-radius:14px;padding:13px 15px;cursor:pointer;font-weight:500}
+.opt small{display:block;color:var(--mut);font-weight:400;font-size:13px}
+.opt input{position:absolute;opacity:0}
+.opt:has(input:checked){border-color:var(--ink);background:var(--bg)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.chip{flex:0 0 auto;border:1.5px solid var(--line);background:none;border-radius:14px;padding:10px 14px;font:500 14px/1.2 var(--sans);cursor:pointer;text-align:center;color:var(--ink)}
+.chip small{display:block;color:var(--mut);font-size:12px}
+.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}.chip.on small{color:#c9c6ba}
+.chip:disabled{opacity:.35;text-decoration:line-through;cursor:not-allowed}
+.times{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.fields{display:grid;gap:10px}
+.fields input{font:inherit;border:1.5px solid var(--line);border-radius:12px;padding:13px 14px;background:var(--bg)}
+.summary{background:var(--bg);border-radius:14px;padding:14px 16px;font-size:14.5px}
+.ok{display:none;background:#e7efdc;border-radius:14px;padding:16px;font-size:15px}
+.ok.show{display:block}
+/* team */
+.team{display:grid;gap:16px;margin-top:36px}
+.person{background:var(--paper);border-radius:18px;padding:22px;display:flex;gap:16px;align-items:center}
+.av{flex:0 0 64px;height:64px;border-radius:50%;display:grid;place-items:center;font:500 24px var(--serif);color:var(--paper)}
+.person h3{font:500 22px/1.2 var(--serif)}
+.person p{color:var(--mut);font-size:14.5px}
+/* om */
+.about{display:grid;gap:30px}
+.about img{border-radius:18px;aspect-ratio:3/2;object-fit:cover;width:100%}
+/* reviews */
+.revs{display:grid;gap:14px;margin-top:30px}
+.rev{background:var(--paper);border-radius:18px;padding:22px}
+.rev .stars{font-size:15px}
+.rev p{margin:10px 0 12px}
+.rev small{color:var(--mut)}
+.gscore{display:flex;align-items:center;gap:14px;margin-top:20px}
+.gscore b{font:500 48px/1 var(--serif)}
+/* insta */
+.insta{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:30px}
+.insta a{position:relative;aspect-ratio:1;overflow:hidden;border-radius:6px;background:var(--blush)}
+.insta img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.insta a:hover img{transform:scale(1.06)}
+/* kontakt */
+.contact{background:var(--paper)}
+.cgrid{display:grid;gap:30px;margin-top:30px}
+.hours{width:100%;border-collapse:collapse}
+.hours td{padding:10px 0;border-bottom:1px solid var(--line)}
+.hours td:last-child{text-align:right;font-weight:500}
+.hours tr.today td{color:var(--sage);font-weight:600}
+.map{position:relative;min-height:300px;border-radius:18px;overflow:hidden;background:
+ linear-gradient(90deg,transparent 47%,#fff 47% 53%,transparent 53%) 0 0/140px 140px,
+ linear-gradient(0deg,transparent 46%,#fff 46% 54%,transparent 54%) 0 0/110px 110px,
+ linear-gradient(30deg,transparent 48%,#dfe6cf 48% 52%,transparent 52%) 0 0/300px 300px,#ece6d9;display:grid;place-items:center}
+.map .lake{position:absolute;right:-40px;top:-30px;width:200px;height:150px;border-radius:50%;background:#cfdde3}
+.map .pin{position:relative;background:var(--ink);color:var(--bg);padding:12px 16px;border-radius:12px;font-size:14px;text-align:center}
+.map .pin:after{content:"";position:absolute;left:50%;bottom:-7px;width:14px;height:14px;background:var(--ink);transform:translateX(-50%) rotate(45deg)}
+.map .lbl{position:absolute;left:12px;bottom:12px;font-size:12px;background:rgba(255,255,255,.85);padding:4px 10px;border-radius:999px;color:var(--mut)}
+footer{padding:40px 20px 30px;font-size:14px;color:var(--mut)}
+footer .wrap{display:flex;flex-direction:column;gap:10px}
+.ed{font-size:12px;opacity:.75}.ed a{text-decoration:none}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(247,242,234,.95);backdrop-filter:blur(10px);border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1.7fr;gap:8px}
+.bar .btn{padding:15px 10px}
+@media(min-width:900px){
+ body{padding-bottom:0}.bar{display:none}.nav ul{display:flex}.nav{padding:14px 40px}
+ .hero{grid-template-columns:1.05fr .95fr;align-items:center;gap:60px;padding:50px 40px 90px}
+ section{padding:110px 40px}
+ .plist{grid-template-columns:repeat(3,1fr);gap:44px}
+ .bk{grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding:34px;gap:30px 40px}
+ .bk .full{grid-column:1/-1}
+ .team{grid-template-columns:repeat(3,1fr)}
+ .person{flex-direction:column;text-align:center;padding:30px}
+ .av{flex-basis:auto;width:90px;height:90px;font-size:32px}
+ .about{grid-template-columns:1fr 1fr;align-items:center;gap:60px}
+ .revs{grid-template-columns:repeat(3,1fr)}
+ .insta{grid-template-columns:repeat(6,1fr);gap:10px}
+ .cgrid{grid-template-columns:1fr 1fr 1.2fr;gap:50px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="demo">Demo af en fiktiv salon – sådan kan din nye hjemmeside se ud</div>
+<header>
+ <nav class="nav">
+  <a class="logo" href="#top">Salon <i>Hyld</i></a>
+  <ul><li><a href="#priser">Priser</a></li><li><a href="#team">Team</a></li><li><a href="#anmeldelser">Anmeldelser</a></li><li><a href="#kontakt">Åbningstider</a></li></ul>
+  <a class="btn sm" href="#booking">Book tid</a>
+ </nav>
+</header>
+<main id="top">
+ <div class="hero">
+  <div class="txt">
+   <div class="eyebrow">Frisør · København K</div>
+   <h1>Hår, der føles <i>som dig</i></h1>
+   <p>Klip, farve og balayage i rolige omgivelser midt i byen. Se ledige tider og book på 30 sekunder – også kl. 23 om aftenen.</p>
+   <div class="cta"><a class="btn" href="#booking">Book tid</a><a class="btn light" href="#priser">Se priser</a></div>
+   <div class="rating"><span class="stars">★★★★★</span> 4,9 på Google · 212 anmeldelser <em style="font-size:12px">(eksempel)</em></div>
+  </div>
+  <figure>
+   <img src="img/hero-800.webp" srcset="img/hero-800.webp 800w, img/hero-1100.webp 1100w" sizes="(min-width:900px) 50vw, 100vw" alt="Lys frisørsalon med buede spejle og trægulv" width="800" height="1422" fetchpriority="high">
+   <div class="badge"><b><span class="dot"></span>Ledig tid i dag</b>kl. 15:30 · Dameklip</div>
+  </figure>
+ </div>
+
+ <section class="prices" id="priser">
+  <div class="wrap">
+   <div class="eyebrow">Behandlinger &amp; priser</div>
+   <h2>Klare priser. Ingen overraskelser.</h2>
+   <p class="lead">Alle priser er inkl. vask og styling. <span class="note">Eksempelpriser – fiktiv salon</span></p>
+   <div class="plist">
+    <div><h3>Klip</h3>
+     <div class="row"><span>Dameklip<small>45 min</small></span><b>595 kr.</b></div>
+     <div class="row"><span>Herreklip<small>30 min</small></span><b>395 kr.</b></div>
+     <div class="row"><span>Børneklip (under 12 år)<small>30 min</small></span><b>295 kr.</b></div>
+     <div class="row"><span>Pandehår<small>15 min</small></span><b>150 kr.</b></div>
+    </div>
+    <div><h3>Farve</h3>
+     <div class="row"><span>Bundfarve<small>75 min</small></span><b>795 kr.</b></div>
+     <div class="row"><span>Striber, mellemlangt hår<small>120 min</small></span><b>1.195 kr.</b></div>
+     <div class="row"><span>Balayage inkl. klip<small>180 min</small></span><b>1.895 kr.</b></div>
+     <div class="row"><span>Toning / glossing<small>30 min</small></span><b>395 kr.</b></div>
+    </div>
+    <div><h3>Pleje &amp; styling</h3>
+     <div class="row"><span>Hårkur med massage<small>30 min</small></span><b>345 kr.</b></div>
+     <div class="row"><span>Føn &amp; styling<small>30 min</small></span><b>350 kr.</b></div>
+     <div class="row"><span>Opsætning til fest<small>60 min</small></span><b>795 kr.</b></div>
+     <div class="row"><span>Brudehår inkl. prøve<small>2 × 90 min</small></span><b>2.495 kr.</b></div>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <section class="booking" id="booking">
+  <div class="wrap">
+   <div class="eyebrow" style="color:#b9c49a">Online booking</div>
+   <h2>Book din tid</h2>
+   <p class="lead">Vælg behandling, dag og tidspunkt. Du får en bekræftelse på sms med det samme. <em>(Demo – der bliver ikke booket noget.)</em></p>
+   <form class="bk" id="bk" onsubmit="return done(event)">
+    <div>
+     <h3>1 · Behandling</h3>
+     <div class="opts">
+      <label class="opt"><input type="radio" name="b" value="Dameklip · 45 min · 595 kr." checked><span>Dameklip<small>45 min</small></span><b>595 kr.</b></label>
+      <label class="opt"><input type="radio" name="b" value="Herreklip · 30 min · 395 kr."><span>Herreklip<small>30 min</small></span><b>395 kr.</b></label>
+      <label class="opt"><input type="radio" name="b" value="Bundfarve · 75 min · 795 kr."><span>Bundfarve<small>75 min</small></span><b>795 kr.</b></label>
+      <label class="opt"><input type="radio" name="b" value="Balayage inkl. klip · 180 min · 1.895 kr."><span>Balayage inkl. klip<small>180 min</small></span><b>1.895 kr.</b></label>
+     </div>
+    </div>
+    <div>
+     <h3>2 · Dag</h3>
+     <div class="chips" id="days"></div>
+     <h3 style="margin-top:22px">3 · Tidspunkt</h3>
+     <div class="times" id="times"></div>
+    </div>
+    <div class="full fields">
+     <h3>4 · Dine oplysninger</h3>
+     <input placeholder="Navn" autocomplete="off" aria-label="Navn">
+     <input placeholder="Mobilnummer" inputmode="tel" autocomplete="off" aria-label="Mobilnummer">
+     <div class="summary" id="sum"></div>
+     <button class="btn" type="submit">Bekræft booking</button>
+     <div class="ok" id="ok">✓ <b>Sådan ville det se ud.</b> Dette er en demo, så der er ikke booket nogen tid. På din rigtige side kobler vi knappen til dit bookingsystem.</div>
+    </div>
+   </form>
+  </div>
+ </section>
+
+ <section id="team">
+  <div class="wrap">
+   <div class="eyebrow">Mød teamet</div>
+   <h2>Hænderne bag dit hår</h2>
+   <p class="lead">Fiktive personer – på din side viser vi dit rigtige team.</p>
+   <div class="team">
+    <div class="person"><div class="av" style="background:#6f7d52">IH</div><div><h3>Ida</h3><p>Ejer &amp; frisørmester. Elsker naturlige farver og bløde lag.</p></div></div>
+    <div class="person"><div class="av" style="background:#b07a5b">ML</div><div><h3>Maja</h3><p>Farvespecialist. Balayage, toning og blond uden gul.</p></div></div>
+    <div class="person"><div class="av" style="background:#3f4a3a">NS</div><div><h3>Noah</h3><p>Herreklip og fades. Hurtig, præcis og altid til tiden.</p></div></div>
+   </div>
+  </div>
+ </section>
+
+ <section style="padding-top:0">
+  <div class="wrap about">
+   <img src="img/farvning.webp" alt="Frisør lægger farve med folie" loading="lazy" width="1200" height="800">
+   <div>
+    <div class="eyebrow">Om salonen</div>
+    <h2>Tid til dig – ikke samlebånd</h2>
+    <p class="lead">Vi starter altid med en snak om dit hår, din hverdag og hvor meget tid du vil bruge foran spejlet. Så får du et resultat, du også kan style selv derhjemme.</p>
+   </div>
+  </div>
+ </section>
+
+ <section class="prices" id="anmeldelser">
+  <div class="wrap">
+   <div class="eyebrow">Google-anmeldelser</div>
+   <h2>Det siger kunderne</h2>
+   <span class="note">Eksempel – fiktive anmeldelser til demo</span>
+   <div class="gscore"><b>4,9</b><div><span class="stars">★★★★★</span><br><small style="color:var(--mut)">212 anmeldelser på Google (eksempel)</small></div></div>
+   <div class="revs">
+    <div class="rev"><span class="stars">★★★★★</span><p>“Endelig en frisør, der lytter. Min balayage er præcis, som jeg havde håbet.”</p><small>Eksempel-kunde · for 2 uger siden</small></div>
+    <div class="rev"><span class="stars">★★★★★</span><p>“Super nemt at booke online om aftenen, og de var helt til tiden.”</p><small>Eksempel-kunde · for 1 måned siden</small></div>
+    <div class="rev"><span class="stars">★★★★★</span><p>“Hyggelig salon, god kaffe og et klip, der holder formen længe.”</p><small>Eksempel-kunde · for 2 måneder siden</small></div>
+   </div>
+  </div>
+ </section>
+
+ <section>
+  <div class="wrap">
+   <div class="eyebrow">Instagram</div>
+   <h2>Seneste arbejde</h2>
+   <p class="lead">Følg med på @salonhyld.demo <em>(eksempel)</em></p>
+   <div class="insta">
+    <a href="#top" aria-label="Instagram-opslag"><img src="img/g-balayage.webp" alt="Balayage i blond og brun" loading="lazy" width="700" height="700"></a>
+    <a href="#top" aria-label="Instagram-opslag"><img src="img/g-bob.webp" alt="Glat brun bob" loading="lazy" width="700" height="700"></a>
+    <a href="#top" aria-label="Instagram-opslag"><img src="img/g-boerste.webp" alt="Føntørring med rundbørste" loading="lazy" width="700" height="700"></a>
+    <a href="#top" aria-label="Instagram-opslag"><img src="img/g-ombre.webp" alt="Bølget hår med ombre" loading="lazy" width="700" height="700"></a>
+    <a href="#top" aria-label="Instagram-opslag"><img src="img/g-klip.webp" alt="Frisør klipper hår" loading="lazy" width="700" height="700"></a>
+    <a href="#top" aria-label="Instagram-opslag"><img src="img/g-foen.webp" alt="Styling med føntørrer" loading="lazy" width="700" height="700"></a>
+   </div>
+  </div>
+ </section>
+
+ <section class="contact" id="kontakt">
+  <div class="wrap">
+   <div class="eyebrow">Find os</div>
+   <h2>Åbningstider &amp; adresse</h2>
+   <div class="cgrid">
+    <table class="hours" id="hours">
+     <tr data-d="1"><td>Mandag</td><td>Lukket</td></tr>
+     <tr data-d="2"><td>Tirsdag</td><td>10–18</td></tr>
+     <tr data-d="3"><td>Onsdag</td><td>10–18</td></tr>
+     <tr data-d="4"><td>Torsdag</td><td>10–20</td></tr>
+     <tr data-d="5"><td>Fredag</td><td>10–18</td></tr>
+     <tr data-d="6"><td>Lørdag</td><td>9–15</td></tr>
+     <tr data-d="0"><td>Søndag</td><td>Lukket</td></tr>
+    </table>
+    <div>
+     <p><b>Salon Hyld</b> <em>(fiktiv)</em><br>Eksempelgade 1<br>1000 København K</p>
+     <p style="margin-top:14px">Tlf. +45 00 00 00 00<br>hej@salonhyld.example</p>
+     <div class="cta" style="margin-top:20px"><a class="btn" href="#booking">Book tid</a></div>
+    </div>
+    <div class="map" role="img" aria-label="Kort-pladsholder"><div class="lake"></div><div class="pin">Salon Hyld</div><span class="lbl">Her vises Google Maps</span></div>
+   </div>
+  </div>
+ </section>
+</main>
+<footer>
+ <div class="wrap">
+  <div>© Salon Hyld – fiktiv salon til demo. Navn, adresse, personer, priser og anmeldelser er opdigtede. Fotos: Unsplash.</div>
+  <div class="ed">Demo-side lavet af ED. – <a href="https://edwebworks.com">edwebworks.com</a></div>
+ </div>
+</footer>
+<nav class="bar" aria-label="Hurtig kontakt">
+ <a class="btn light" href="#priser">Priser</a>
+ <a class="btn" href="#booking">Book tid</a>
+</nav>
+<script>
+(function(){
+ var days=document.getElementById('days'),times=document.getElementById('times'),sum=document.getElementById('sum');
+ var dn=['søn','man','tir','ons','tor','fre','lør'],mn=['jan','feb','mar','apr','maj','jun','jul','aug','sep','okt','nov','dec'];
+ var sel={d:null,t:null},now=new Date();
+ var tr=document.querySelector('#hours tr[data-d="'+now.getDay()+'"]');if(tr)tr.className='today';
+ for(var i=0;i<10;i++){var d=new Date(now);d.setDate(now.getDate()+i);var wd=d.getDay();
+  var b=document.createElement('button');b.type='button';b.className='chip';b.innerHTML=(i==0?'I dag':dn[wd])+'<small>'+d.getDate()+'. '+mn[d.getMonth()]+'</small>';
+  b.dataset.l=(i==0?'i dag':dn[wd]+'dag')+' '+d.getDate()+'. '+mn[d.getMonth()];
+  if(wd==0||wd==1){b.disabled=true}else if(!sel.d){sel.d=b;b.classList.add('on')}
+  b.onclick=function(){if(sel.d)sel.d.classList.remove('on');sel.d=this;this.classList.add('on');slots();upd()};days.appendChild(b)}
+ function slots(){times.innerHTML='';sel.t=null;var s=['10:00','10:45','11:30','13:00','13:45','14:30','15:30','16:15'];
+  s.forEach(function(x,j){var b=document.createElement('button');b.type='button';b.className='chip';b.textContent=x;
+   if((j*7+sel.d.textContent.length)%3==0)b.disabled=true;else if(!sel.t){sel.t=b;b.classList.add('on')}
+   b.onclick=function(){if(sel.t)sel.t.classList.remove('on');sel.t=this;this.classList.add('on');upd()};times.appendChild(b)})}
+ function upd(){var r=document.querySelector('input[name=b]:checked');sum.innerHTML='<b>'+r.value+'</b><br>'+(sel.d?sel.d.dataset.l:'')+(sel.t?' kl. '+sel.t.textContent:'')}
+ document.querySelectorAll('input[name=b]').forEach(function(x){x.onchange=upd});
+ slots();upd();
+ window.done=function(e){e.preventDefault();document.getElementById('ok').classList.add('show');return false};
+})();
+</script>
+</body>
+</html>
